@@ -10,5 +10,8 @@ echo "starting docker instances"
 docker compose up -d
 
 cd vroom-frontend || exit 3
-npm install
+pwd
+if [[ ! -d node_modules ]]; then
+  npm install
+fi
 npm run serve
