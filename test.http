@@ -1,0 +1,42 @@
+###
+POST http://localhost:3000
+Content-Type: application/json
+
+{
+  "vehicles": [
+    {
+      "id": 0,
+      "start": [
+        16.124427,
+        48.174760
+      ],
+      "end": [
+        16.454954,
+        48.263896
+      ],
+      "profile": "driving-car"
+    }
+  ],
+  "jobs": [
+    {
+      "id": 0,
+      "location": [
+        16.315031,
+        48.263528
+      ]
+    },
+    {
+      "id": 1,
+      "location": [
+        16.346855,
+        48.178693
+      ]
+    }
+  ],
+  "options": {
+    "g": true
+  }
+}
+
+###
+
